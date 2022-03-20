@@ -21,7 +21,7 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Mikiko Noro, studying HTML/CSS,JavaScript, and Next.js
+        <p>Hello, I am Mikiko Noro, studying HTML/CSS,JavaScript, and Next.js
         </p>
         <p>Please Follow My Tweet From<a href="https://twitter.com/MPrg2011">@MPrg2011</a>
         </p>
