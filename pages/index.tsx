@@ -25,10 +25,7 @@ export default function Home({
         </p>
         <p>Please Follow My Tweet From<a href="https://twitter.com/MPrg2011">@MPrg2011</a>
         </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <a className="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/MPrg2011?ref_src=twsrc%5Etfw">Tweets by MPrg2011</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
