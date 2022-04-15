@@ -50,3 +50,10 @@
 .lightText {
   color: #666;
 }
+/* Twitterの埋め込み場所の指定 */
+.twitterTL {
+  color: #1D9BEF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
