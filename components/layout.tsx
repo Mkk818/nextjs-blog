@@ -1,11 +1,12 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Mikiko Noro'
-export const siteTitle = 'Next.js Sample Website'
+// const name = 'Mikiko Noro'
+export const siteTitle = 'Mikiko’s Website'
 
 export default function Layout({
   children,
@@ -40,9 +41,7 @@ export default function Layout({
               className={utilStyles.borderCircle}
               height={144}
               width={144}
-              alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
@@ -50,19 +49,12 @@ export default function Layout({
               <a>
                 <Image
                   priority
-                  src="/img/profile.jpeg"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
+                  src="/img/md/vscode.png"
+                  height={256}
+                  width={256}
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
           </>
         )}
       </header>
