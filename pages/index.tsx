@@ -25,7 +25,11 @@ export default function Home({
         </p>
         <p>Please Follow My Tweet From<a href="https://twitter.com/MPrg2011">@MPrg2011</a>
         </p>
-        <a className="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/MPrg2011?ref_src=twsrc%5Etfw">Tweets by MPrg2011</a> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+        <article className={utilStyles.twitterTL}>
+          <p>Twitter</p>
+          <a className="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/MPrg2011?ref_src=twsrc%5Etfw">Tweets by MPrg2011</a>
+          <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+        </article>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
